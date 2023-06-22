@@ -1,0 +1,19 @@
+server:
+  port: 8100
+  
+spring:
+  application:
+    name: organization-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/employeedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    username: root
+    password: 8476929746@lti
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    hostname: localhost

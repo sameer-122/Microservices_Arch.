@@ -1,0 +1,23 @@
+
+<nav>
+    <div class="topnav">
+        <!-- <a routerLink="">Home</a> -->
+        <a class="active" routerLink="empProfile">Profile</a>
+        <a routerLink="/employeeLogin">Logout</a>
+    </div>
+</nav>
+
+<body>
+    <div class="card">
+        <img src="https://www.nautec.com/wp-content/uploads/2018/04/placeholder-person.png" alt="">
+        <h1 style="color: rgba(255, 46, 63, 0.685); font-style: oblique;">Welcome ! {{employee.name}}</h1>
+            <div style="padding-top: 20px; font-style: italic;">
+               <h5>Employee Id : {{employee.id}}</h5> <br>
+                <h5>Organization Id : {{employee.organizationId}}</h5> <br>
+                <h5>Department Id : {{employee.departmentId}}</h5><br>
+                <h5>Employee Name : {{employee.name}}</h5> <br>
+                <h5>Employee Age : {{employee.age}}</h5> <br>
+                <h5>Employee Position : {{employee.position}}</h5>
+            </div>
+    </div>
+</body>

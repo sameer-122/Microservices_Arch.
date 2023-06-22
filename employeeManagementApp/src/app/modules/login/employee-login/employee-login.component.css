@@ -1,0 +1,88 @@
+/* table {
+    border-collapse: separate;
+    border-spacing: 30px 0;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: double;
+    font-family: Mathalic;
+    font-size: 50px;
+    color: beige;
+  }
+  
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: double;
+    font-family: Mathalic;
+  }
+  
+  .c1 {
+    padding-bottom: 220px;
+    background-color: rgb(0, 26, 49);
+    background-image: url("https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg");
+  }
+  
+  .c2 {
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: rgb(128, 137, 146);
+  }
+  
+  .c3 {
+    background-color: antiquewhite;
+  }
+  
+  .c3:hover {
+    background-color: rgb(0, 26, 49);
+  }
+  
+  .enter {
+    color: rgb(49, 0, 0);
+  }
+   */
+
+   .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+body{
+    background-color: red;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(187, 50, 50);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}

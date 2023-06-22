@@ -1,0 +1,480 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #541bc1;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+body::after {
+  content: "";
+  background: url('https://ae01.alicdn.com/kf/HTB1I_FvOXXXXXXCaFXXq6xXFXXX7/Fuga-de-Rick-e-Morty-Hot-Anima-o-Dos-Desenhos-Animados-Poster-Retro-Do-Vintage-Da.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.svgcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.topconvo {
+  font-size: 35px;
+}
+.topconvo span{
+  color: #a71dbf;
+}
+.bottomconvo{
+    padding-top: 15px;
+}
+
+.subcont {
+  width: 100%;
+  text-align: center;
+  height: 80vh;
+}
+
+.svgcontainer svg#fourohfour {
+  max-height: 320px;
+  height: 21vw;
+  min-height: 170px;
+}
+
+.svgcontainer svg#fourohfour g#tops path#leftfourtop {
+  transform-origin: center;
+  -webkit-animation: loboff1 4s 1s forwards;
+  animation: loboff1 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour g#tops path#zerotop_3_.picklericked {
+  transform-origin: center;
+  -webkit-animation: loboff2 4s 1s forwards;
+  animation: loboff2 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour g#tops path#rightfourtop.picklericked {
+  transform-origin: center;
+  -webkit-animation: loboff3 4s 1s forwards;
+  animation: loboff3 4s 1s forwards;
+}
+
+.svgcontainer svg#fourohfour .st0 {
+  fill: #a71dbf;
+}
+
+.svgcontainer svg#fourohfour .st1 {
+  fill: #541bc1;
+}
+
+.svgcontainer svg#fourohfour .st2 {
+  fill: #f0a9ff;
+}
+
+.backgroundfun {
+  position: absolute;
+  min-height: 100%;
+}
+
+.backgroundfun svg#rnmbg .st0 {
+  fill: #3f271a;
+}
+
+.backgroundfun svg#rnmbg .st1 {
+  fill: #e9ce33;
+}
+
+.backgroundfun svg#rnmbg .st2 {
+  fill: #834d21;
+}
+
+.backgroundfun svg#rnmbg .st3 {
+  fill: #eacb36;
+}
+
+.backgroundfun svg#rnmbg .st4 {
+  fill: #d28b3a;
+}
+
+.backgroundfun svg#rnmbg .st5 {
+  fill: #84a841;
+}
+
+.backgroundfun svg#rnmbg .st6 {
+  fill: #ca7f3f;
+}
+
+.backgroundfun svg#rnmbg .st7 {
+  fill: #e7ab43;
+}
+
+.backgroundfun svg#rnmbg .st8 {
+  fill: #ebc22d;
+}
+
+.backgroundfun svg#rnmbg .st9 {
+  fill: #b5c04c;
+}
+
+.backgroundfun svg#rnmbg .st10 {
+  fill: #ddb92d;
+}
+
+.backgroundfun svg#rnmbg .st11 {
+  fill: #e9c194;
+}
+
+.backgroundfun svg#rnmbg .st12 {
+  fill: #e3aa86;
+}
+
+.backgroundfun svg#rnmbg .st13 {
+  fill: #98702d;
+}
+
+.backgroundfun svg#rnmbg .st14 {
+  fill: #95b023;
+}
+
+.backgroundfun svg#rnmbg .st15 {
+  fill: #e2a175;
+}
+
+.backgroundfun svg#rnmbg .st16 {
+  fill: #c8672e;
+}
+
+.backgroundfun svg#rnmbg .st17 {
+  fill: #c06b73;
+}
+
+.backgroundfun svg#rnmbg .st18 {
+  fill: #728b47;
+}
+
+.backgroundfun svg#rnmbg .st19 {
+  fill: #da7d3d;
+}
+
+.backgroundfun svg#rnmbg .st20 {
+  fill: #db9345;
+}
+
+.backgroundfun svg#rnmbg .st21 {
+  fill: #d4713c;
+}
+
+.backgroundfun svg#rnmbg .st22 {
+  fill: #e1d47e;
+}
+
+.backgroundfun svg#rnmbg .st23 {
+  fill: #db9364;
+}
+
+.backgroundfun svg#rnmbg .st24 {
+  fill: #cc8cbc;
+}
+
+.backgroundfun svg#rnmbg .st25 {
+  fill: #e3b6bf;
+}
+
+.backgroundfun svg#rnmbg .st26 {
+  fill: #d1c295;
+}
+
+.backgroundfun svg#rnmbg .st27 {
+  fill: #b3996d;
+}
+
+.backgroundfun svg#rnmbg .st28 {
+  fill: #e8ba47;
+}
+
+.backgroundfun svg#rnmbg .st29 {
+  fill: #b45c36;
+}
+
+svg#swipe {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: -300px;
+  filter: blur(6px);
+  -webkit-animation: swipecut 0.1s linear 1s forwards;
+  animation: swipecut 0.1s linear 1s forwards;
+}
+
+svg#swipe .st0 {
+  fill: #4e8025;
+}
+
+svg#picklerick {
+  width: 300px;
+  position: absolute;
+  bottom: -400px;
+  right: 13%;
+  -webkit-animation: popup 1s 5s forwards;
+  animation: popup 1s 5s forwards;
+}
+
+svg#picklerick .st0 {
+  fill: #fefefe;
+}
+
+svg#picklerick .st1 {
+  fill: #0d130c;
+}
+
+svg#picklerick .st2 {
+  fill: #4e8025;
+}
+
+svg#picklerick .st3 {
+  fill: #669b2e;
+}
+
+svg#picklerick .st4 {
+  fill: #e5f8d3;
+}
+
+/* @-webkit-keyframes swipecut {
+  0% {
+  }
+
+  100% {
+    transform: translateX(calc(100vw + 300px));
+  }
+}
+
+@-webkit-keyframes loboff1 {
+  0% {
+  }
+
+  100% {
+    transform: translate(0px, 3px) rotate(27deg);
+  }
+}
+
+@-webkit-keyframes loboff2 {
+  0% {
+  }
+
+  100% {
+    transform: translate(10px, -27px) rotate(27deg);
+  }
+}
+
+@-webkit-keyframes loboff3 {
+  0% {
+  }
+
+  100% {
+    transform: translate(20px, -50px) rotate(28deg);
+  }
+}
+
+@-webkit-keyframes popup {
+  0% {
+  }
+
+  100% {
+    transform: translateY(-200px);
+  }
+} */
+
+@media only screen and (max-height: 420px) {
+    .svgcontainer svg#fourohfour {
+    height: 180px;
+    }
+    .topconvo{
+        font-size: 25px;
+    }
+    .bottomconvo{
+        font-size: 13px;
+    }
+    svg#picklerick {
+        bottom: -420px;
+        right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .topconvo{
+        font-size: 25px;
+    }
+    .bottomconvo{
+        font-size: 13px;
+    }
+    svg#picklerick {
+        width: 240px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.topconvo{
+  margin-top: 10px;
+  color: rebeccapurple;
+  font-family: ubuntu;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 120px;
+  background: #27282c;
+}
+
+.button {
+  position: relative;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  color: var(--color);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  text-shadow: 0 0 15px var(--color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.button:hover {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px var(--color);
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color);
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.button:hover::before {
+  transform: scale(1);
+  transition-delay: 0.5s;
+  box-shadow: 0 0 10px var(--color),
+    0 0 30px var(--color),
+    0 0 60px var(--color);
+}
+
+.button span {
+  position: absolute;
+  background: var(--color);
+  pointer-events: none;
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--color),
+    0 0 20px var(--color),
+    0 0 30px var(--color),
+    0 0 50px var(--color),
+    0 0 100px var(--color);
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.25s;
+}
+
+.button:hover span {
+  opacity: 0;
+  transition-delay: 0s;
+}
+
+.button span:nth-child(1),
+.button span:nth-child(3) {
+  width: 40px;
+  height: 4px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateX(0);
+}
+
+.button span:nth-child(2),
+.button span:nth-child(4) {
+  width: 4px;
+  height: 40px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateY(0);
+}
+
+.button span:nth-child(1) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transform-origin: left;
+}
+
+.button:hover span:nth-child(1) {
+  left: 50%;
+}
+
+.button span:nth-child(3) {
+  top: calc(50% - 2px);
+  right: -50px;
+  transform-origin: right;
+}
+
+.button:hover span:nth-child(3) {
+  right: 50%;
+}
+
+.button span:nth-child(2) {
+  left: calc(50% - 2px);
+  top: -50px;
+  transform-origin: top;
+}
+
+.button:hover span:nth-child(2) {
+  top: 50%;
+}
+
+.button span:nth-child(4) {
+  left: calc(50% - 2px);
+  bottom: -50px;
+  transform-origin: bottom;
+}
+
+.button:hover span:nth-child(4 ) {
+  bottom: 50%;
+}
+.bottomconvo{
+  color:  rgb(12, 12, 12);
+  font-style: oblique;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}

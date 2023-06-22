@@ -1,0 +1,20 @@
+
+<nav>
+    <div class="topnav">
+        <a routerLink="/adminDashboard">Home</a>
+        <a class="active" routerLink="orgProfile">Profile</a>
+        <a routerLink="/employees">Employee List</a>
+    </div>
+</nav>
+
+<body>
+    <div class="card">
+        <img src="https://www.nautec.com/wp-content/uploads/2018/04/placeholder-person.png" alt="">
+        <h2 style="font-style: oblique;color: brown;">Department Details</h2>
+            <div style="font-style: italic; padding-top: 20px;">
+                <h5>Department Id : {{department.departmentId}}</h5><br>
+                <h5>Organization Id : {{department.organizationId}}</h5> <br>
+                 <h5>Department Name : {{department.departmentName}}</h5><br>
+            </div>
+    </div>
+</body>

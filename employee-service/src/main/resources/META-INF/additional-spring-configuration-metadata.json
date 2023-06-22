@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "allowed.origin",
+    "type": "java.lang.String",
+    "description": "A description for 'allowed.origin'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.wait-duration-in-open-state",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.wait-duration-in-open-state'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.permitted-number-of-calls-in-half-open-state",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.permitted-number-of-calls-in-half-open-state'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.sliding-window-type",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.sliding-window-type'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.sliding-window-size",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.sliding-window-size'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.minimum-number-of-calls",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.minimum-number-of-calls'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.slow-call-rate-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.slow-call-rate-threshold'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.slow-call-duration-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.slow-call-duration-threshold'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.instances.my-circuit-breaker.failure-rate-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.instances.my-circuit-breaker.failure-rate-threshold'"
+  },
+  {
+    "name": "resilience4j.circuit breaker.retry",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuit breaker.retry'"
+  },
+  {
+    "name": "resilience4j.instances.my-retry.max-attempts",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.instances.my-retry.max-attempts'"
+  }
+]}

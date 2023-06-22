@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apigateway-service/ApiGatewayService.iml" filepath="$PROJECT_DIR$/apigateway-service/ApiGatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EmployeeManagementUseCase.iml" filepath="$PROJECT_DIR$/.idea/EmployeeManagementUseCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver-service/EurekaServer.iml" filepath="$PROJECT_DIR$/eurekaserver-service/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/department-service/department.iml" filepath="$PROJECT_DIR$/department-service/department.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee-service/employee.iml" filepath="$PROJECT_DIR$/employee-service/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organization-service/organization.iml" filepath="$PROJECT_DIR$/organization-service/organization.iml" />
+    </modules>
+  </component>
+</project>
